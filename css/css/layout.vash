@@ -1,0 +1,843 @@
+
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="csrf-token" content="0wRwzeZeh9ETrmgLPfddNoyaCJguXbvWSSvANOjk" />
+    <meta name="description"
+        content=" قولدن تيكت منصة إلكترونية لتبادل وإعادة بيع التذاكر, نعيد تعريف تجربتك في سوق تذاكر الأحداث الترفيهية والرياضية وضمانها 100٪ " />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://grintahub.com/assets/front/fonts/samim-font.css" />
+    <link rel="shortcut icon" type="image/png" href="https://golden4tic.com/storage/options/0DC2RbEhPVHhkosHfSlVJTjWncQLMJ5uu4ARnpxa.jpg" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://grintahub.com/assets/front/css/bootstrap.min_ar.css" />
+    <link rel="stylesheet" href="https://grintahub.com/assets/front/css/style_ar.css" />
+    <link rel="stylesheet" href="https://grintahub.com/assets/front/css/main.css" />
+    <link rel="stylesheet" href="https://grintahub.com/assets/front/css/style.css" />
+    <!-- Custom fonts for this template-->
+  <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>  
+    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>  
+    <script src="../bootstrap/js/popper.min.js"></script>  
+    <!-- Custom styles for this template-->
+    <link href="/css/sb-admin-2.min.css" rel="stylesheet">
+    <title>قولدن تيكت | منصة تبادل وإعادة بيع التذاكر الآمنة</title>
+
+    <script>
+        !(function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod
+                    ? n.callMethod.apply(n, arguments)
+                    : n.queue.push(arguments);
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = "2.0";
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s);
+        })(
+            window,
+            document,
+            "script",
+            "https://connect.facebook.net/en_US/fbevents.js"
+        );
+        fbq("init", "352031809729650");
+        fbq("track", "PageView");
+    </script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-212186581-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+        gtag("config", "UA-212186581-1");
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9425954119686341"
+        crossorigin="anonymous"></script>
+    <noscript><img height="1" width="1" style="display: none" src="tr" /></noscript>
+
+    <style type="text/css">
+        .modal-content {
+            background: #dc6;
+        }
+
+        header#header-ar {
+            border-bottom: 1px solid #ccc;
+        }
+        .footers-cont{
+              background:#222;
+              background-image: url("https://golden4tic.com/assets/img/pattern.png") !important;
+        }
+
+        .footers a {
+            color: #696969;
+        }
+
+        .footers p {
+            color: #696969;
+        }
+
+        .footers ul {
+            line-height: 30px;
+        }
+
+        #social-fb:hover {
+            color: #3b5998;
+
+            transition: all 0.001s;
+        }
+
+        #social-tw:hover {
+            color: #4099ff;
+
+            transition: all 0.001s;
+        }
+
+        #social-gp:hover {
+            color: #d34836;
+
+            transition: all 0.001s;
+        }
+
+        #social-em:hover {
+            color: #f39c12;
+
+            transition: all 0.001s;
+        }
+
+        a.navbar-brand {
+            width: 230px;
+        }
+
+        input.form-control {
+            border: 2px solid #ccc;
+        }
+
+        .modal {
+            overflow-y: auto;
+        }
+
+        /* Dropdown Button */
+        .dropbtn {
+            background-color: #fff;
+            color: #000;
+            padding: 5px 20px;
+            font-size: 17px;
+            border: 2px solid #e6e6e6;
+            border-radius: 8px;
+            font-weight: 600;
+        }
+
+        /* The container <div> - needed to position the dropdown content */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Dropdown Content (Hidden by Default) */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        /* Links inside the dropdown */
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        /* Change color of dropdown links on hover */
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        /* Show the dropdown menu on hover */
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        /* Change the background color of the dropdown button when the dropdown content is shown */
+        .dropdown:hover .dropbtn {
+            background-color: #3e8e41;
+        }
+
+        .modal-header {
+            background-color: #819ec1;
+        }
+
+        .modal-footer {
+            background-color: #819ec1;
+        }
+
+        .modal-body {
+            background-color: #ccc;
+        }
+    </style>
+    <script type="text/javascript" src="https://grintahub.com/assets/front/js/jquery.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/363ad84da6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/libraries.css">
+    <link rel="stylesheet" href="../css/checkout.css">
+
+        @html.block('styles')
+</head>
+
+<body>
+    <header id="header-ar">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg navbar-light px-0">
+                        <a class="navbar-brand" href="/">
+                            <img src="https://golden4tic.com/storage/options/0DC2RbEhPVHhkosHfSlVJTjWncQLMJ5uu4ARnpxa.jpg" alt="GRINTAHUB" title="GRINTAHUB" style="width: 140px" />
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <div class="nav-buttons-left ml-auto">
+                                <ul class="list-unstyled p-0">
+                                    <li>
+                                        <a href="javascript:void(0);" style="color:#fff !important" class="changelanguage" data-lang="ar"><i
+                                                class="ar-flag"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);"  style="color:#fff !important" class="changelanguage" data-lang="en"><i
+                                                class="en-flag"></i></a>
+                                    </li>
+                                </ul>
+                                <a href="/" style="color:#fff !important"  class="btn ticket-btn my-2 my-sm-0"
+                                    type="submit">
+                                    بيع تذكرتك
+                                </a>
+                                <a class="btn entry-btn my-2 my-sm-0" style="color:#fff !important" href="/login" type="button" data-toggle="modal"
+                                    data-target=".mysigninModal">
+                                    تسجيل الدخول
+                                </a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+  @html.block('content')
+
+  
+    <style type="text/css">
+        #home-banners .banner-captions input[type="search"] {
+            height: 60px;
+            border-radius: 8px;
+            font-size: 18px;
+            background-image: url(../img/search-cion.png);
+            background-position: left 15px top 15px;
+            background-repeat: no-repeat;
+            border: 0;
+            padding-left: 60px;
+        }
+
+        img.img-fluids {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+
+        section#home-request-tickets {
+            padding-top: 50px;
+        }
+    </style>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+   
+    <section class="footers bg-light pt-5 pb-3">
+        <div class="container footers-cont pt-5" >
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3 footers-one" style="display: flex; justify-content: center; align-items:center; flex-direction: column;">
+                    <div class="footers-logo" >
+                        <img src="https://golden4tic.com/storage/options/0DC2RbEhPVHhkosHfSlVJTjWncQLMJ5uu4ARnpxa.jpg" alt="GRINTAHUB" title="GRINTAHUB" style="width: 100%" />
+                    </div>
+                    <div class="footers-info mt-3">
+                       <a class="gtmLink" title="VAT" data-event="footer_navidation" data-event-category="Navigation" data-event-action="Footer" href="/ar/vat">
+                          <img src="https://s3.ticketmx.com/images/shared/vat-logo.svg" width="40">
+                      </a>
+                    </div>
+                    <div class="footers-info mt-3">
+                        <p style="color:#fff"> 2019 - 2022 جميع الحقوق محفوظة golden4tic</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 footers-two"></div>
+                <div class="col-xs-12 col-sm-6 col-md-3 footers-three">
+                    <ul class="list-unstyled">
+                        <li>
+                            <h3 style="color:#fff">من نحن</h3>
+                            <p style="color:#fff">مؤسسة النجوم السلاطعة للتسويق الالكتروني بسجل تجاري رقم : 1010638189</p>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target=".mysignupModal">
+                                التسجيل
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#term-and-conditions">
+                                الشروط والأحكام
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#privacy-policy">
+                                سياسة الخصوصية
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 footers-three">
+                    <a href="https://twitter.com/Basant_hasn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="24" height="24" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
+
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+    <style>
+      a:link,
+      a:visited {
+        color: #FFF;
+        text-decoration: none;
+        transition: all 0.4s ease-in-out;
+      }
+
+      h1 {
+        font-size: 20px;
+        text-align: center;
+        display: block;
+        background: linear-gradient(to right top, #6f96f3, #164ed2);
+        color: #fff;
+        border-radius: 50px;
+      }
+
+      /* CSS Multiple Whatsapp Chat */
+      .whatsapp-name {
+        font-size: 16px;
+        font-weight: 600;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        line-height: 0.5;
+      }
+
+      #whatsapp-chat {
+        box-sizing: border-box !important;
+
+        outline: none !important;
+        position: fixed;
+        width: 350px;
+        border-radius: 10px;
+        box-shadow: 0 1px 15px rgba(32, 33, 36, 0.28);
+        bottom: 90px;
+        right: 30px;
+        overflow: hidden;
+        z-index: 99;
+        animation-name: showchat;
+        animation-duration: 1s;
+        transform: scale(1);
+      }
+
+      a.blantershow-chat {
+        /*   background: #009688; */
+        background: #fff;
+        color: #404040;
+        position: fixed;
+        display: flex;
+        font-weight: 400;
+        justify-content: space-between;
+        z-index: 98;
+        bottom: 85px;
+        right: 30px;
+        font-size: 15px;
+        padding: 10px 20px;
+        border-radius: 30px;
+        box-shadow: 0 1px 15px rgba(32, 33, 36, 0.28);
+      }
+
+      a.blantershow-chat svg {
+        transform: scale(1.2);
+        margin: 0 10px 0 0;
+      }
+
+      .header-chat {
+        /*   background: linear-gradient(to right top, #6f96f3, #164ed2); */
+        background: #009688;
+        background: #095e54;
+        color: #fff;
+        padding: 20px;
+      }
+
+      .header-chat h3 {
+        margin: 0 0 10px;
+      }
+
+      .header-chat p {
+        font-size: 14px;
+        line-height: 1.7;
+        margin: 0;
+      }
+
+      .info-avatar {
+        position: relative;
+      }
+
+      .info-avatar img {
+        border-radius: 100%;
+        width: 50px;
+        float: left;
+        margin: 0 10px 0 0;
+      }
+
+      a.informasi {
+        padding: 20px;
+        display: block;
+        overflow: hidden;
+        animation-name: showhide;
+        animation-duration: 0.5s;
+      }
+
+      a.informasi:hover {
+        background: #f1f1f1;
+      }
+
+      .info-chat span {
+        display: block;
+      }
+
+      #get-label,
+      span.chat-label {
+        font-size: 12px;
+        color: #888;
+      }
+
+      #get-nama,
+      span.chat-nama {
+        margin: 5px 0 0;
+        font-size: 15px;
+        font-weight: 700;
+        color: #222;
+      }
+
+      #get-label,
+      #get-nama {
+        color: #fff;
+      }
+
+      span.my-number {
+        display: none;
+      }
+
+
+      textarea#chat-input {
+        border: none !important;
+        font-family: "Arial", sans-serif !important;
+        width: 100% !important;
+        outline: none !important;
+        height: 33px !important;
+        resize: unset !important;
+
+        padding: 10px !important;
+        font-size: 14px !important;
+      }
+
+      a#send-it {
+        width: 30px;
+        font-weight: 700;
+        padding: 10px 10px 0;
+        background: #eee;
+        border-radius: 10px;
+
+        svg {
+          fill: #a6a6a6;
+          height: 24px;
+          width: 24px;
+        }
+      }
+
+      .first-msg {
+        background: transparent;
+        padding: 30px;
+        text-align: center;
+
+        & span {
+          background: #e2e2e2;
+          color: #333;
+          font-size: 14.2px;
+          line-height: 1.7;
+          border-radius: 10px;
+          padding: 15px 20px;
+          display: inline-block;
+        }
+      }
+
+      .start-chat .blanter-msg {
+        display: flex;
+      }
+
+      #get-number {
+        display: none;
+      }
+
+      a.close-chat {
+        position: absolute;
+        top: 5px;
+        right: 15px;
+        color: #fff;
+        font-size: 30px;
+
+      }
+
+     /*Here what I delete */
+      .hide {
+        display: none;
+        animation-name: showhide;
+        animation-duration: 0.5s;
+        transform: scale(1);
+        opacity: 1;
+      }
+
+      .show {
+        display: block;
+        animation-name: showhide;
+        animation-duration: 0.5s;
+        transform: scale(1);
+        opacity: 1;
+      }
+
+      .whatsapp-message-container {
+        display: flex;
+        z-index: 1;
+      }
+
+      .whatsapp-message {
+        padding: 7px 14px 6px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 0px 8px 8px;
+        position: relative;
+        transition: all 0.3s ease 0s;
+        opacity: 0;
+        transform-origin: center top 0px;
+        z-index: 2;
+        box-shadow: rgba(0, 0, 0, 0.13) 0px 1px 0.5px;
+        margin-top: 4px;
+        margin-left: -54px;
+        max-width: calc(100% - 66px);
+      }
+
+      .whatsapp-chat-body {
+        padding: 20px 20px 20px 10px;
+        background-color: rgb(230, 221, 212);
+        position: relative;
+
+        &::before {
+          display: block;
+          position: absolute;
+          content: "";
+          left: 0px;
+          top: 0px;
+          height: 100%;
+          width: 100%;
+          z-index: 0;
+          opacity: 0.08;
+          background-image: url("https://elfsight.com/assets/chats/patterns/whatsapp.png");
+          // background-image: url(https://res.cloudinary.com/eventbree/image/upload/v1575782560/Widgets/whatsappbg_opt.jpg);
+        }
+      }
+
+      .dAbFpq {
+        display: flex;
+        z-index: 1;
+      }
+
+      .eJJEeC {
+        background-color: rgb(255, 255, 255);
+        width: 52.5px;
+        height: 32px;
+        border-radius: 16px;
+        display: flex;
+        -moz-box-pack: center;
+        justify-content: center;
+        -moz-box-align: center;
+        align-items: center;
+        margin-left: 10px;
+        opacity: 0;
+        transition: all 0.1s ease 0s;
+        z-index: 1;
+        box-shadow: rgba(0, 0, 0, 0.13) 0px 1px 0.5px;
+      }
+
+      .hFENyl {
+        position: relative;
+        display: flex;
+      }
+
+      .ixsrax {
+        height: 5px;
+        width: 5px;
+        margin: 0px 2px;
+        border-radius: 50%;
+        display: inline-block;
+        position: relative;
+        animation-duration: 1.2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        top: 0px;
+        background-color: rgb(158, 157, 162);
+        animation-name: ZpjSY;
+      }
+
+      .dRvxoz {
+
+        height: 5px;
+        width: 5px;
+        margin: 0px 2px;
+        background-color: rgb(182, 181, 186);
+        border-radius: 50%;
+        display: inline-block;
+        position: relative;
+        animation-duration: 1.2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        top: 0px;
+        animation-name: hPhMsj;
+      }
+
+      .kAZgZq {
+        padding: 7px 14px 6px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 0px 8px 8px;
+        position: relative;
+        transition: all 0.3s ease 0s;
+        opacity: 0;
+        transform-origin: center top 0px;
+        z-index: 2;
+        box-shadow: rgba(0, 0, 0, 0.13) 0px 1px 0.5px;
+        margin-top: 4px;
+        margin-left: -54px;
+        max-width: calc(100% - 66px);
+
+        &::before {
+          position: absolute;
+          background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAmCAMAAADp2asXAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACQUExURUxpccPDw9ra2m9vbwAAAAAAADExMf///wAAABoaGk9PT7q6uqurqwsLCycnJz4+PtDQ0JycnIyMjPf3915eXvz8/E9PT/39/RMTE4CAgAAAAJqamv////////r6+u/v7yUlJeXl5f///5ycnOXl5XNzc/Hx8f///xUVFf///+zs7P///+bm5gAAAM7Ozv///2fVensAAAAvdFJOUwCow1cBCCnqAhNAnY0WIDW2f2/hSeo99g1lBYT87vDXG8/6d8oL4sgM5szrkgl660OiZwAAAHRJREFUKM/ty7cSggAABNFVUQFzwizmjPz/39k4YuFWtm55bw7eHR6ny63+alnswT3/rIDzUSC7CrAziPYCJCsB+gbVkgDtVIDh+DsE9OTBpCtAbSBAZSEQNgWIygJ0RgJMDWYNAdYbAeKtAHODlkHIv997AkLqIVOXVU84AAAAAElFTkSuQmCC");
+          background-position: 50% 50%;
+          background-repeat: no-repeat;
+          background-size: contain;
+          content: "";
+          top: 0px;
+          left: -12px;
+          width: 12px;
+          height: 19px;
+        }
+      }
+
+      .bMIBDo {
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 18px;
+        color: rgba(0, 0, 0, 0.4);
+      }
+
+      .iSpIQi {
+        font-size: 14px;
+        line-height: 19px;
+        margin-top: 4px;
+        color: rgb(17, 17, 17);
+      }
+
+      .iSpIQi {
+        font-size: 14px;
+        line-height: 19px;
+        margin-top: 4px;
+        color: rgb(17, 17, 17);
+      }
+
+      .cqCDVm {
+        text-align: right;
+        margin-top: 4px;
+        font-size: 12px;
+        line-height: 16px;
+        color:
+          rgba(17, 17, 17, 0.5);
+        margin-right: -8px;
+        margin-bottom: -4px;
+      }
+    </style>
+  <div id="whatsapp-chat" class="hide">
+      <div class="header-chat">
+        <div class="head-home">
+          <div class="info-avatar"><img src="https://golden4tic.com/storage/options/0DC2RbEhPVHhkosHfSlVJTjWncQLMJ5uu4ARnpxa.jpg"></div>
+          <p><span class="whatsapp-name">قولدن تيكت </span><br><small>عادة يتم الرد خلال دقيقة.</small></p>
+
+        </div>
+        <div class="get-new hide">
+          <div id="get-label"></div>
+          <div id="get-nama"></div>
+        </div>
+      </div>
+      <div class="home-chat">
+
+      </div>
+      <div class="start-chat">
+        <div pattern="https://elfsight.com/assets/chats/patterns/whatsapp.png"
+          class="WhatsappChat__Component-sc-1wqac52-0 whatsapp-chat-body">
+          <div class="WhatsappChat__MessageContainer-sc-1wqac52-1 dAbFpq">
+            <div style="opacity: 0;" class="WhatsappDots__Component-pks5bf-0 eJJEeC">
+              <div class="WhatsappDots__ComponentInner-pks5bf-1 hFENyl">
+                <div class="WhatsappDots__Dot-pks5bf-2 WhatsappDots__DotOne-pks5bf-3 ixsrax"></div>
+                <div class="WhatsappDots__Dot-pks5bf-2 WhatsappDots__DotTwo-pks5bf-4 dRvxoz"></div>
+                <div class="WhatsappDots__Dot-pks5bf-2 WhatsappDots__DotThree-pks5bf-5 kXBtNt"></div>
+              </div>
+            </div>
+            <div style="opacity: 1;" class="WhatsappChat__Message-sc-1wqac52-4 kAZgZq">
+              <div class="WhatsappChat__Author-sc-1wqac52-3 bMIBDo">قولدن تيكت</div>
+              <div class="WhatsappChat__Text-sc-1wqac52-2 iSpIQi">السلام عليكم 👋<br><br>سعيد بالتحدث معك كيف بامكننا
+                خدمتك .?</div>
+              <div class="WhatsappChat__Time-sc-1wqac52-5 cqCDVm">12:00</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="blanter-msg">
+          <textarea id="chat-input" placeholder="اكتب الان" maxlength="120" row="1"></textarea>
+          <a href="javascript:void;" id="send-it"><svg viewBox="0 0 448 448">
+              <path d="M.213 32L0 181.333 320 224 0 266.667.213 416 448 224z" />
+            </svg></a>
+
+        </div>
+      </div>
+      <div id="get-number"></div><a class="close-chat" href="javascript:void">×</a>
+    </div>
+    <a class="blantershow-chat" href="javascript:void" title="Show Chat"><svg width="20" viewBox="0 0 24 24">
+        <defs />
+        <path fill="#eceff1"
+          d="M20.5 3.4A12.1 12.1 0 0012 0 12 12 0 001.7 17.8L0 24l6.3-1.7c2.8 1.5 5 1.4 5.8 1.5a12 12 0 008.4-20.3z" />
+        <path fill="#4caf50"
+          d="M12 21.8c-3.1 0-5.2-1.6-5.4-1.6l-3.7 1 1-3.7-.3-.4A9.9 9.9 0 012.1 12a10 10 0 0117-7 9.9 9.9 0 01-7 16.9z" />
+        <path fill="#fafafa"
+          d="M17.5 14.3c-.3 0-1.8-.8-2-.9-.7-.2-.5 0-1.7 1.3-.1.2-.3.2-.6.1s-1.3-.5-2.4-1.5a9 9 0 01-1.7-2c-.3-.6.4-.6 1-1.7l-.1-.5-1-2.2c-.2-.6-.4-.5-.6-.5-.6 0-1 0-1.4.3-1.6 1.8-1.2 3.6.2 5.6 2.7 3.5 4.2 4.2 6.8 5 .7.3 1.4.3 1.9.2.6 0 1.7-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.2-.3-.3-.6-.4z" />
+      </svg> محادثة واتس اب</a>
+    <style type="text/css">
+        #home-banners .banner-captions input[type="search"] {
+            height: 60px;
+            border-radius: 8px;
+            font-size: 18px;
+            background-image: url(../img/search-cion.png);
+            background-position: left 15px top 15px;
+            background-repeat: no-repeat;
+            border: 0;
+            padding-left: 60px;
+        }
+
+        img.img-fluids {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+
+        section#home-request-tickets {
+            padding-top: 50px;
+        }
+    </style>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+   
+ 
+    <section class="disclaimer bg-light border" style="display: none">
+        
+    </section>
+   <script>
+      /* Whatsapp Chat Widget by www.bloggermix.com */
+      $(document).on("click", "#send-it", function () {
+        var a = document.getElementById("chat-input");
+        if ("" != a.value) {
+          var b = $("#get-number").text(),
+            c = document.getElementById("chat-input").value,
+            d = "https://web.whatsapp.com/send",
+            e = b,
+            f = "&text=" + c;
+          if (
+            /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+              navigator.userAgent
+            )
+          )
+            var d = "whatsapp://send";
+          var g = d + "?phone=+966552057972" + e + f;
+          window.open(g, "_blank");
+        }
+      }),
+        $(document).on("click", ".informasi", function () {
+          (document.getElementById("get-number").innerHTML = $(this)
+            .children(".my-number")
+            .text()),
+            $(".start-chat,.get-new")
+              .addClass("show")
+              .removeClass("hide"),
+            $(".home-chat,.head-home")
+              .addClass("hide")
+              .removeClass("show"),
+            (document.getElementById("get-nama").innerHTML = $(this)
+              .children(".info-chat")
+              .children(".chat-nama")
+              .text()),
+            (document.getElementById("get-label").innerHTML = $(this)
+              .children(".info-chat")
+              .children(".chat-label")
+              .text());
+        }),
+        $(document).on("click", ".close-chat", function () {
+          $("#whatsapp-chat")
+            .addClass("hide")
+            .removeClass("show");
+        }),
+        $(document).on("click", ".blantershow-chat", function () {
+          $("#whatsapp-chat")
+            .addClass("show")
+            .removeClass("hide");
+        });
+
+   </script>
+    <section class="copyright border" style="background: #090d16">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-12 pt-3">
+                    <p class="text-muted" style="color: #fff !important">
+                        © 2022 golden4tic | Design By golden4tic.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
